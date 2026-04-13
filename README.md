@@ -1,5 +1,8 @@
 # outreach-sequence-builder
 
+<img width="1280" height="640" alt="outreach-sequence-builder" src="https://github.com/user-attachments/assets/3d73358a-52ca-48e7-b34e-b1ba33246d6e" />
+
+
 Turn a buying signal into a ready-to-send multi-channel outreach sequence. Give the skill a signal and it generates 4-6 personalized touchpoints across email, LinkedIn, and phone, with objection pre-emption built in.
 
 ## What It Does
