@@ -5,6 +5,38 @@
 
 Turn a buying signal into a ready-to-send multi-channel outreach sequence. Give the skill a signal and it generates 4-6 personalized touchpoints across email, LinkedIn, and phone, with objection pre-emption built in.
 
+## Installation
+
+### Prerequisites
+
+You need [Node.js](https://nodejs.org/) installed. It comes with `npx` built in.
+
+### Option 1: npx (All Agents)
+
+```bash
+npx "@opendirectory.dev/skills" install outreach-sequence-builder --target claude
+```
+
+Supported `--target` values: `claude`, `gemini`, `codex`, `opencode`, `anti-gravity`, `openclaw`, `hermes`
+
+### Option 2: Native Plugin (Claude Code Only)
+
+Run these two commands inside your Claude Code terminal:
+
+```bash
+/plugin marketplace add Varnan-Tech/opendirectory
+/plugin install outreach-sequence-builder@opendirectory-marketplace
+```
+
+### Option 3: Claude Desktop App
+
+**Step 1: Download**
+Click **Code → Download ZIP** on this repo's GitHub page.
+
+**Step 2: Install**
+1. Open Claude Desktop > Customize > Skills > **+** > Upload a skill
+2. Drop the downloaded zip or extracted folder
+
 ## What It Does
 
 - Identifies the signal type from 7 categories: Post-Fundraise, Hiring Signal, Competitor Displacement, Product Launch, Content Engagement, Event Follow-up, Job Change
